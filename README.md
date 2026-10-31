@@ -39,6 +39,12 @@ Choose **On battery** and **On charger** independently in the popup. Cell shows 
 
 Click the gear or right-click the menu bar icon to open **Settings…**. Hide the percentage, place it to the left or right of the battery, or open Cell at login. **Open at login** starts off.
 
+## Download
+
+Download the latest [release](https://github.com/upsidedly/cell/releases/latest), open the `.dmg`, and drag **Cell** into **Applications**. These builds are for Apple silicon Macs. Quit an older Cell before replacing it.
+
+The app is locally signed and is not notarized. macOS may require first-launch approval in **System Settings → Privacy & Security**.
+
 ## Install from source
 
 Use an Apple silicon Mac with macOS 26.4 or later and Swift 6.
@@ -50,7 +56,7 @@ cd cell
 open /Applications/Cell.app
 ```
 
-The script builds and signs the app locally and backs up an earlier installation. Quit Cell before updating it. Reading power use and changing the charge limit need no administrator, Accessibility or Screen Recording permission. Energy-mode changes require macOS authorization; Cell installs no privileged helper. There is no notarized download yet.
+The script builds and signs the app locally and backs up an earlier installation. Quit Cell before updating it. Reading power use and changing the charge limit need no administrator, Accessibility or Screen Recording permission. Energy-mode changes require macOS authorization; Cell installs no privileged helper.
 
 ## Compatibility and privacy
 
